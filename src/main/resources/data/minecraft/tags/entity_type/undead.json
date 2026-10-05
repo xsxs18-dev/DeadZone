@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "deadzone:walker",
+    "deadzone:runner",
+    "deadzone:crawler",
+    "deadzone:bloater",
+    "deadzone:spitter",
+    "deadzone:brute",
+    "deadzone:screamer",
+    "deadzone:soldier",
+    "deadzone:leaper",
+    "deadzone:toxic",
+    "deadzone:patient_zero"
+  ]
+}

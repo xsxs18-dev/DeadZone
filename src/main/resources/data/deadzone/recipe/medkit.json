@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "deadzone:bandage",
+    "deadzone:bandage",
+    "minecraft:golden_apple",
+    "minecraft:honey_bottle"
+  ],
+  "result": {
+    "id": "deadzone:medkit",
+    "count": 1
+  }
+}

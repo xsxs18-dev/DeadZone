@@ -1,0 +1,6 @@
+{
+  "parent": "deadzone:item/gun",
+  "textures": {
+    "layer0": "deadzone:item/m4a1"
+  }
+}

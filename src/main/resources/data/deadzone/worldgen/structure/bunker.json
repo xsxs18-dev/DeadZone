@@ -1,0 +1,8 @@
+{
+  "type": "deadzone:ruin",
+  "layout": "bunker",
+  "biomes": "#deadzone:has_bunker",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

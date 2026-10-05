@@ -1,0 +1,29 @@
+# Gradle / build
+.gradle/
+.gradle-home/
+build/
+out/
+*.class
+
+# Dev runs
+run/
+
+# Local build output and videos
+dist/
+
+# Local environment (machine-specific paths)
+env.sh
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+
+# Python
+__pycache__/
+*.pyc
+venv/

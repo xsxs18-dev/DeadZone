@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "deadzone:military"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "deadzone:military"
+      }
+    ]
+  }
+}

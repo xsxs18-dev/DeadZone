@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "deadzone:metropolis",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 36,
+    "separation": 16,
+    "salt": 902211357
+  }
+}

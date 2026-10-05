@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "deadzone:ammo_9mm",
+    "count": 16
+  }
+}

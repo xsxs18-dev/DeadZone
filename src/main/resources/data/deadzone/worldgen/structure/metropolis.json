@@ -1,0 +1,74 @@
+{
+  "type": "deadzone:ruin",
+  "layout": "metropolis",
+  "biomes": "#deadzone:has_metropolis",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "deadzone:walker",
+          "weight": 60,
+          "minCount": 2,
+          "maxCount": 4
+        },
+        {
+          "type": "deadzone:runner",
+          "weight": 30,
+          "minCount": 2,
+          "maxCount": 3
+        },
+        {
+          "type": "deadzone:crawler",
+          "weight": 20,
+          "minCount": 1,
+          "maxCount": 3
+        },
+        {
+          "type": "deadzone:spitter",
+          "weight": 15,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "deadzone:bloater",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "deadzone:screamer",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "deadzone:leaper",
+          "weight": 15,
+          "minCount": 1,
+          "maxCount": 2
+        },
+        {
+          "type": "deadzone:toxic",
+          "weight": 8,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "deadzone:brute",
+          "weight": 5,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "deadzone:soldier",
+          "weight": 6,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ]
+    }
+  }
+}

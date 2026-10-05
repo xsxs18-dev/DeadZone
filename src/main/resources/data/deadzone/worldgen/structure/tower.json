@@ -1,0 +1,8 @@
+{
+  "type": "deadzone:ruin",
+  "layout": "tower",
+  "biomes": "#deadzone:has_tower",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}

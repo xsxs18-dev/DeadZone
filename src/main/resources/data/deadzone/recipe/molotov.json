@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:coal",
+    "minecraft:string",
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "deadzone:molotov",
+    "count": 1
+  }
+}

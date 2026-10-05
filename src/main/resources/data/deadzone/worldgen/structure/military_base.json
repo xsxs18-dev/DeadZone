@@ -1,0 +1,38 @@
+{
+  "type": "deadzone:ruin",
+  "layout": "military",
+  "biomes": "#deadzone:has_military",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "deadzone:soldier",
+          "weight": 60,
+          "minCount": 2,
+          "maxCount": 4
+        },
+        {
+          "type": "deadzone:walker",
+          "weight": 20,
+          "minCount": 2,
+          "maxCount": 3
+        },
+        {
+          "type": "deadzone:brute",
+          "weight": 6,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "deadzone:leaper",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ]
+    }
+  }
+}

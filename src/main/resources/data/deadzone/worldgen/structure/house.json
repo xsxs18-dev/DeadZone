@@ -1,0 +1,8 @@
+{
+  "type": "deadzone:ruin",
+  "layout": "house",
+  "biomes": "#deadzone:has_house",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {}
+}

@@ -1,0 +1,9 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "deadzone:gas_mask"
+      }
+    ]
+  }
+}

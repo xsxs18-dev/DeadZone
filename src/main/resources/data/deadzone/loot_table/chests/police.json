@@ -1,0 +1,150 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:ammo_9mm",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:shotgun_shell",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:ammo_556",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:pistol_m9",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:revolver",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:desert_eagle",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:pump_shotgun",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:mp5",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:m4a1",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:military_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:military_vest",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:combat_knife",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:grenade",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:bandage",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.08
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "deadzone:antidote",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
